@@ -38,5 +38,15 @@ El siguiente proyecto realiza la funcion de una calculadora de complejos, el cod
 ## Pruebas: 
 Cada una de las funcionalidades del proyecto se encuentran probadas, se adjunto imagenes de la aplicacion wolframalpha para verificar la validez de algunas funcionalidades del proyecto.
 
+
+## Proyecto 2: Sistemas Dinamicos, 1 Oct 2019, Johan Stiven Guerrero Pineda
+## FUNCIONALIDADES
+-SistemasYDinamica, determina el estado de un sistema clasico,probabilistico y cuantico muestra su estado final despues de ciertos clicks
+-SistemasEnsamblados, une dos sistemas de estados y determina su estado final despues de ciertos clicsk
+-rendijas determina la probabilidad de estar en los diferentes estados del experimento de la doble rendija.
+
+## Pruebas: 
+Cada una de las funcionalidades del proyecto se encuentran probadas, se adjunta un grafico de barras que respresenta el estado final de los sistemas segun ciertos clicks
+
 ## Ambiente:
 Si desea utilizar el contenido del proyecto, debe descargar anaconda, puesto que es el pla plataforma de desarrollo en la cual soporta jupiter notebooks que es el libro de diseño al cual fue sometido este proyecto. Si desea puede descargarlo y utilizar el contenido de esta repositorio para verificar las diferentes operaciones que se pueden realizar en el mundo de los complejos.
