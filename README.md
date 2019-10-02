@@ -41,11 +41,11 @@ Cada una de las funcionalidades del proyecto se encuentran probadas, se adjunto 
 
 ## Proyecto 2: Sistemas Dinamicos, 1 Oct 2019, Johan Stiven Guerrero Pineda
 ## FUNCIONALIDADES
--SistemasYDinamica, determina el estado de un sistema clasico,probabilistico y cuantico muestra su estado final despues de ciertos clicks.
+- SistemasYDinamica, determina el estado de un sistema clasico,probabilistico y cuantico muestra su estado final despues de ciertos clicks.
 
--SistemasEnsamblados, une dos sistemas de estados y determina su estado final despues de ciertos clicks.
+- SistemasEnsamblados, une dos sistemas de estados y determina su estado final despues de ciertos clicks.
 
--rendijas determina la probabilidad de estar en los diferentes estados del experimento de la doble rendija.
+- rendijas determina la probabilidad de estar en los diferentes estados del experimento de la doble rendija.
 
 ## Pruebas: 
 Cada una de las funcionalidades del proyecto se encuentran probadas, se adjunta un grafico de barras que respresenta el estado final de los sistemas segun ciertos clicks
