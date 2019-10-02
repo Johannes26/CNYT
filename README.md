@@ -41,20 +41,20 @@ Cada una de las funcionalidades del proyecto se encuentran probadas, se adjunto 
 
 ## Proyecto 2: Sistemas Dinamicos, 1 Oct 2019, Johan Stiven Guerrero Pineda
 ## FUNCIONALIDADES
-    - SistemasYDinamica, determina el estado de un sistema clasico,probabilistico y cuantico muestra su estado final despues de ciertos                           clicks.
+- SistemasYDinamica, determina el estado de un sistema clasico,probabilistico y cuantico muestra su estado final despues de ciertos                           clicks.
                         parametros:  - Dinamica: Expresa la dinamica del sistema 0(Clasico,Determinista),1(Probabilistico),2(Cuantico).
                                      - Matriz: matriz de adyacencia correspondiente a la dinamica del sistema.
                                      - Vector: Vector de inicio del sistema.
                                      - clicks tiempo
                                      
-    - SistemasEnsamblados, une dos sistemas de estados y determina su estado final despues de ciertos clicks.
+- SistemasEnsamblados, une dos sistemas de estados y determina su estado final despues de ciertos clicks.
                           parametros: - Matriz 1: Matriz de adyacencia de una primer dinamica de un sistema 
                                       - Matriz 2: Matriz de adyacencia de la siguiente dinamica de un sistema 
                                       - Vector 1: Estado inicial del primer sistema
                                       - Vector 2: Estado inicial del segundo sistema
                                       - t: Clicks de tiempo
 
-    - rendijas, determina la probabilidad de estar en los diferentes estados del experimento de la doble rendija.
+- rendijas, determina la probabilidad de estar en los diferentes estados del experimento de la doble rendija.
                 parametros: - Dinamica: Expresa la dinamica del sistema 0(Probabilistico),1(Cuantico).
                             - num_rendijas: numero de rendijas.
                             - num_blancos_pared: numero de blancos que se encuentran detras de la pared.
