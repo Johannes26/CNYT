@@ -66,24 +66,30 @@ Cada una de las funcionalidades del proyecto se encuentran probadas, se adjunto 
                             probabilidades para los estados basicos, esto se realiza dividiendo le modulo cuadrado 
                               de cada uno de los estados sobre la norma de el vector total, que es la suma de todas 
                               las normas del vector.
+                              
     -VectorNormalizado(V): recibe un vector de estados, debe retornar un vector normalizado, esto lo realiza
                             determinando la norma total de vector, y dividiendo cada uno de los componentes
-                            sobre esta norma
+                            sobre esta norma.
+                            
     -amplitud(V1,V2): recibe 2 vectores con los cuales debe determinar la amplitud de 
                         transicion de pasar de un vector inicial a uno final,el vector1 es el vector final 
                         y el vector 2 es el inicial, para realizar este proceso, se ha de hacer el producto 
                         interno entre el vector final y el inicial, no al contrario, por eso el orden de los parametros.
+                        
     -valorEsperado(O,phi): el valor esperado se define como el producto interno entre la accion de 
                             un observable con phi y el mismo vector phi, que se tiene que tener 
                             en cuenta que el observable es una matriz hermitiana. La funcion retorna el valor 
                             esperado de un observador con respecto a phi.
+                            
     -delta(O,phi): el operador delta se define como la resta entre la matriz del observador menos 
                 la identidad multiplicada por el valor esperado del observador con respecto a phi,
                 se ha de tener en cuentra que la identidad tiene que ser de la misma dimension del 
-                observable paraque se puedan restar.La funcion ha de retornar el operador delta
+                observable paraque se puedan restar.La funcion ha de retornar el operador delta.
+                
     -Varianza(O,phi): la varianza de un observable se define como el valor esperado de el delta cuadrada 
                         con respecto a phi. Esta funcion determina la varianza utilizando las
                           funciones implementadas anteriormente.
+                          
     -Valorespropios(O,phi): esta funcion ha de ingresarse un observable y el phi correspondiente, 
                             sin embargo, la entrada de esta es diferente a los anteriores, puesto que 
                             esta se hizo implementado metodos de la libreria numpy de python, por lo cual a 
