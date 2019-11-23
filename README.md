@@ -60,7 +60,7 @@ Cada una de las funcionalidades del proyecto se encuentran probadas, se adjunto 
                             - num_blancos_pared: numero de blancos que se encuentran detras de la pared.
                             - Vector_prob: Vector que determina la probabilidad de llegar a cada una de las rendijas
                                             En el caso de estar vacio, determina que la probabilidad ha de ser la misma
-## Proyecto 2: Sistemas Dinamicos, 1 Oct 2019, Johan Stiven Guerrero Pineda
+## Proyecto 3: Sistemas Dinamicos, 1 Oct 2019, Johan Stiven Guerrero Pineda
 ## FUNCIONALIDADES
     -SistemaCuantico(V): recibe un estado de posicion de una particula, debe de retorna un vector con las
                             probabilidades para los estados basicos, esto se realiza dividiendo le modulo cuadrado 
@@ -100,7 +100,13 @@ Cada una de las funcionalidades del proyecto se encuentran probadas, se adjunto 
                             de estos phi con respecto a los vectores propios del observable, para este ultimo 
                             se reliza normalizacion de los vectores y se determina el modulo cuadrado de el
                             producto interno entre el vector propio y phi respectivamente.
-    
+   
+## Proyecto 4: Esfera de bloch, 1 Oct 2019, Johan Stiven Guerrero Pineda
+## FUNCIONALIDADES:
+        -esferaDeBloch(v): determina el angulo theta y phi correspondiente a un ket
+        -bloch(v): Dibuja cubits dentro de la esfera de blonch, ingresando la latitud y longitud correspondientes
+        -ket_en_bloch(v): Dibuja kets dentro de la esfera de bloch
+        
 ## Pruebas: 
 Cada una de las funcionalidades del proyecto se encuentran probadas, se adjunta un grafico de barras que respresenta el estado final de los sistemas segun ciertos clicks.
 Para el proyecto 3 las pruebas se encuentrar validas excepto la ultima funcion puesto que no arroja el valor correcto de colapsos, sin embargo el metodo se encuentra correctamente implementado
